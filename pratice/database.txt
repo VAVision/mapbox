@@ -1,0 +1,5 @@
+CREATE TABLE `pratice`.`user_details` ( `id` INT NOT NULL AUTO_INCREMENT , `city` VARCHAR(500) NOT NULL , `sub_city` VARCHAR(500) NOT NULL , `shop_name` VARCHAR(500) NOT NULL , `lat` FLOAT(10,6) NOT NULL , `lng` FLOAT(10,6) NOT NULL , `description` VARCHAR(500) NOT NULL , `contact_number` VARCHAR(500) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+
+INSERT INTO `user_details` (`id`, `city`, `sub_city`, `shop_name`, `map_location`, `description`, `contact_number`) VALUES (NULL, 'Chennai', 'Anna Nagar West', 'Krishna Stores', '-31.621323','106.612323', 'Vegetable Shop', '1234567890');
